@@ -1,0 +1,230 @@
+html {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-size: 100%;
+}
+
+*,
+*::before,
+*:after {
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+}
+
+body {
+  color: white;
+  background-color: #101010;
+  margin: 0;
+  padding: 0;
+  line-height: 1.3;
+  font-size: 13px;
+  font-family: Roboto, "Segoe UI", Tahoma, sans-serif;
+}
+
+.wrapper {
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-image: url(./images/backgrounds/Ed24A9mUMAEgjj1.jfif);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.header {
+  top: 0;
+  width: 100%;
+  height: 48px;
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.header a {
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+  margin-right: 20px;
+}
+
+.header .apps {
+  fill: white;
+  width: 25px;
+  margin-right: 20px;
+}
+
+.logo {
+  background-image: url(./images/google-logo.png);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 271px;
+  height: 92px;
+  margin-bottom: 40px;
+}
+
+.search-bar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 42px;
+  width: 562px;
+  margin-bottom: 20px;
+}
+
+.search-bar__logo, .search-bar__voice-search {
+  width: 70px;
+  background-color: white;
+}
+
+.search-bar__logo {
+  border-top-left-radius: 25px;
+  border-bottom-left-radius: 25px;
+  background-image: url(./images/magnify.png);
+  background-size: 35px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.search-bar__voice-search {
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+  background-image: url(./images/voice-search.png);
+  background-size: 26px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.search-bar__input {
+  border: none;
+  width: 100%;
+}
+
+.search-bar__input:focus::-webkit-input-placeholder {
+  color: transparent;
+}
+
+.search-bar__input:focus:-ms-input-placeholder {
+  color: transparent;
+}
+
+.search-bar__input:focus::-ms-input-placeholder {
+  color: transparent;
+}
+
+.search-bar__input:focus::placeholder {
+  color: transparent;
+}
+
+.search-bar__input:focus {
+  border: none;
+  outline: none;
+}
+
+.links-container {
+  width: 448px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (minmax(112px, auto))[4];
+      grid-template-columns: repeat(4, minmax(112px, auto));
+  -ms-grid-rows: (minmax(112px, auto))[2];
+      grid-template-rows: repeat(2, minmax(112px, auto));
+}
+
+.links-container .link {
+  border-radius: 3px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.links-container .link__logo-circle {
+  width: 50px;
+  height: 50px;
+  background-color: white;
+  border-radius: 50%;
+  background-size: 26px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.links-container .link__logo-circle--facebook {
+  background-image: url(./images/facebook.png);
+}
+
+.links-container .link__logo-circle--twitter {
+  background-image: url(./images/twitter.png);
+}
+
+.links-container .link__logo-circle--instagram {
+  background-image: url(./images/instagram.png);
+}
+
+.links-container .link__logo-circle--youtube {
+  background-image: url(./images/youtube.png);
+}
+
+.links-container .link__logo-circle--stack {
+  background-image: url(./images/stack.png);
+}
+
+.links-container .link__logo-circle--github {
+  background-image: url(./images/GitHub-Mark.png);
+}
+
+.links-container .link__logo-circle--fcc {
+  background-image: url(./images/fcc.png);
+}
+
+.links-container .link__logo-circle--twitch {
+  background-image: url(./images/twitch.png);
+}
+
+.links-container .link__title {
+  margin-top: 6px;
+  font-weight: 600;
+}
+
+.links-container .link:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.edit-button {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  fill: white;
+  margin: 20px;
+}
+/*# sourceMappingURL=main.css.map */
